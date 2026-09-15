@@ -113,15 +113,18 @@ h1 {
 
 .portrait-wrap {
   flex: 0 0 148px;
+  width: 148px;
+  height: 190px;
 }
 
 .portrait {
   display: block;
   width: 148px;
-  aspect-ratio: 1;
+  height: 190px;
   object-fit: cover;
+  object-position: center top;
   border: 5px solid var(--coral);
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 .contact-bar {
@@ -358,6 +361,11 @@ h3 {
 
   .portrait-wrap {
     flex-basis: 88px;
+    height: 118px;
+  }
+
+  .portrait {
+    height: 118px;
   }
 
   .contact-bar {
